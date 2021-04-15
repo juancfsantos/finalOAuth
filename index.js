@@ -6,8 +6,8 @@ const app = express();
 app.set('view engine', 'ejs');
 var access_token = "";
 
-// Listen to port 8080
-const port = process.env.PORT || 8080;
+// Listen to port 3000
+const port = process.env.PORT || 3000;
 app.listen(port , () => console.log('App listening on port ' + port));
 
 // Get index page
